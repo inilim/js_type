@@ -4,7 +4,7 @@ export function isObject(value) {
 
 /**
  * 
- * @param {onject} obj
+ * @param {object} obj
  * @returns {bool}
  */
 export function isEmptyObject(obj) {
