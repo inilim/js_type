@@ -1,3 +1,3 @@
-export function isObject(v) {
-    return typeof v === "object" && !Array.isArray(v) && v !== null;
+export function isObject(value) {
+    return typeof value === "object" && !Array.isArray(value) && value !== null;
 }
