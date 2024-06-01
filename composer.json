@@ -1,0 +1,13 @@
+{
+    "name": "inilim/js_type_string",
+    "description": "js_type_string",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "inilim"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
