@@ -3,7 +3,22 @@ import {isObject} from './Object';
 import {isArray} from './ObjectArray';
 
 /**
+ * 
  * @param {string} value 
+ * @returns {bool}
+ */
+export function isJSON(value){
+    try {
+        JSON.parse(value);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+
+/**
+ * @param {string} value
+ * @returns {bool}
  */
 export function isJSONAsObject(value) {
     try {
@@ -15,7 +30,8 @@ export function isJSONAsObject(value) {
 }
 
 /**
- * @param {string} value 
+ * @param {string} value
+ * @returns {bool}
  */
 export function isJSONAsArray(value) {
     try {
@@ -27,7 +43,8 @@ export function isJSONAsArray(value) {
 }
 
 /**
- * @param {string} value 
+ * @param {string} value
+ * @returns {bool}
  */
 export function isJSONAsString(value) {
     try {
